@@ -17,5 +17,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.disableWifiApFirmwareReload=true \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15 \
     wlan.driver.ath=0
