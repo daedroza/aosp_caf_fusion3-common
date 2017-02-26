@@ -5,4 +5,7 @@ PRODUCT_COPY_FILES += \
 # QMI properties
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
-    persist.data.qmi.adb_logmask=0
+    persist.data.qmi.adb_logmask=0 \
+    ro.com.android.mobiledata=false
+    
+
